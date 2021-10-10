@@ -13,7 +13,6 @@ function PetList({ search, type }) {
 			<Pet
 				key={pet.id}
 				name={pet.name}
-				type={pet.type}
 				image1={pet.image}
 				image2={pet.image2}
 			/>
